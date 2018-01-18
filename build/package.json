@@ -1,0 +1,20 @@
+{
+  "name": "screen-capturer",
+  "version": "1.0.0",
+  "description": "Screen Capturer",
+  "main": "index.html",
+  "chromium-args": "--mixed-context",
+  "window": {
+    "show": true,
+    "frame": false,
+    "width": 580,
+    "height": 320,
+    "min_width": 450,
+    "min_height": 320,
+    "position": "center",
+    "resizable": true,
+    "icon": "./assets/icon-48x48.png"
+  },
+  "author": "",
+  "license": "ISC"
+}
