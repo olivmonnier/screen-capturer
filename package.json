@@ -7,7 +7,7 @@
     "start": "nw .",
     "dev": "webpack -d --watch",
     "build": "webpack",
-    "package": "nwb nwbuild -v 0.21.3-sdk ./build -o ./dist -p linux64,win32,osx64"
+    "package": "nwb nwbuild -v 0.27.5-sdk ./build -o ./dist -p linux64,win32,osx64"
   },
   "chromium-args": "--mixed-context",
   "window": {
